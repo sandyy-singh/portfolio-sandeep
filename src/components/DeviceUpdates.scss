@@ -1,0 +1,98 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.DeviceUpdates {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+
+
+    >.main-head {
+        width: 229px;
+        height: 38px;
+        margin-bottom: 10px;
+    }
+
+    >.both-overview {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+
+        >.tChart {
+            width: 563px;
+            height: 353px;
+            border-radius: 9px;
+            background: #FFF;
+            box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.15);
+
+            >.headSection {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 15px;
+
+                >.btns {
+                    display: flex;
+                    flex-direction: row;
+                    border-radius: 7px;
+                    border: 1px solid rgba(0, 0, 0, 0.10);
+                    background: #EDEDED;
+                    display: inline-flex;
+                    padding: 6px 5px;
+                    justify-content: center;
+                    align-items: center;
+
+                    >.btn{
+                        margin: 0px 10px;
+                        padding:  2px 5px;
+                        border: none;
+                        
+                        border-radius: 7px;
+                        &:hover{
+                            background-color: #FFF;
+                   
+                        }
+                    }
+                }
+            }
+
+        }
+
+
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .chart1{
+//     width: 504.003px;
+//     height: 200px;
+
+// }
