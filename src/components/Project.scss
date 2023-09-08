@@ -1,43 +1,74 @@
-.projects {
+// .projects {
+//     background-color: rgb(211, 213, 215);
+//     height: 100vh;
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     >.proj-head{
+//         font-size: 40px;
+//         margin-top: 50px;
+//         color: rgb(22, 22, 70);
+//     }
+
+//     >.bg-project {
+//         width: 80%;
+//         height: 70vh;
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         gap: 10px;
+
+//         >.project {
+           
+//             >button{
+//                 border: 5px solid blueviolet;
+//                 >img {
+//                     width: 300px;
+//                     height: 200px;
+//                     // margin-bottom: 15px;
+//                     &:hover{
+//                         transform: translateY(-10px) scale(1.25);
+//                     }
+//                 }
+//                 h3{
+//                     // margin-top: 40px;
+//                 }
+//             }
+
+//         }
+//     }
+
+// }
+
+@mixin prooo1 {
+    @media (max-width:1150px) {
+        @content;
+    }
+}
+.projectss{
     background-color: rgb(211, 213, 215);
-    height: 100vh;
-    width: 100%;
+}
+.image {
+    width: 320px;
+    height: 230px;
+    border-radius: 8px;
+    border: 5px solid blueviolet;
+    @include prooo1 {
+        width: 250px;
+        height: 180px;
+    }
+
+    
+    &:hover{
+        transform: translateY(-10px) scale(1.1);
+    }
+}
+  button{
+    outline: none;
+    border: none;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    >.proj-head{
-        font-size: 40px;
-        margin-top: 50px;
-        color: rgb(22, 22, 70);
-    }
-
-    >.bg-project {
-        width: 80%;
-        height: 70vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-
-        >.project {
-           
-            >button{
-                border: 5px solid blueviolet;
-                >img {
-                    width: 300px;
-                    height: 200px;
-                    // margin-bottom: 15px;
-                    &:hover{
-                        transform: translateY(-10px) scale(1.25);
-                    }
-                }
-                h3{
-                    // margin-top: 40px;
-                }
-            }
-
-        }
-    }
-
-}
+  }

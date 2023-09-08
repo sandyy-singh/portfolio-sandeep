@@ -1,46 +1,11 @@
 // *{
 //   // border: 1px solid black;
 // }
-.bg-img{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(211, 213, 215);
-    overflow: hidden;
+.Contact-com{
+  background-color: rgb(211, 213, 215);
 }
-.bg-main{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 70%;
-   
-    margin-top: 20px;
-    >.part-first{
-      >h1{
-        text-align: center;
-        margin-bottom: 20px;
-        text-align: center;
-        margin-bottom: 30px;
-        color: #221137;;
-        font-size: 80px;
-      }
-      >img{
-        width: 400px;
-      }
-      
-    }
-}
-
 .contact-form {
-    width: 450px;
-    height: 450px;
+
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -51,7 +16,8 @@
     border-radius: 45px;
     >h3{
      color: #252222; 
-     margin-bottom: 15px;
+     margin: 20px;
+     font-size: 25px;
     }
 
   
@@ -68,11 +34,10 @@
   
         input,
         textarea {
-          width: 300px;
-          padding: 10px;
+          width: 230px;
+          padding: 5px;
           border-radius: 5px;
-          outline:none;
-          border: none;
+
         }
   
         textarea {
@@ -88,6 +53,7 @@
         border-radius: 5px;
         cursor: pointer;
         transition: background-color 0.3s;
+        margin: 15px;
   
         &:hover {
           background-color: #35234b;
