@@ -83,7 +83,7 @@ const Navbar = () => {
               </li>
               <li className="mx-1 mx-md-3">
                 <Link className="nav-link" to="/Galary">
-                  Galary
+                  Gallery
                 </Link>
               </li>
               <li className="mx-1 mx-md-3">

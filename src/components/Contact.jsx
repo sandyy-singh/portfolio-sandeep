@@ -28,13 +28,15 @@ const Contact = () => {
       .then((result) => {
         console.log(result);
 
-      
       })
       .then(()=>{
-        setFormData(formData.name="")
-        setFormData(formData.email="")
-        setFormData(formData.message="")
+        setFormData({
+          name: "",
+          email: "",
+          message: "",
+        })
       })
+
       .then((err) => {
         console.log(err);
       });

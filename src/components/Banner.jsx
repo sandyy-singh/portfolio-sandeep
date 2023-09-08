@@ -6,6 +6,7 @@ import {
   FaGithub,
   FaInstagram,
 } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 import mypick1 from "../assets/mypick1.png";
 
 import Services from "./Services";
@@ -17,7 +18,10 @@ import Project from "./Project";
 // import { useNavigate } from "react-router-dom";
 
 const Banner = () => {
-  // const navigate =useNavigate()
+  const navigate =useNavigate()
+  const forNavigate = ()=>{
+    navigate("/Contact");
+  }
 
   return (
     <div className="container-fluid  Banner">
@@ -61,7 +65,7 @@ const Banner = () => {
               <h1 className="font-weight-bold">Web-App Developer</h1>
               <p className=" mt-4">I am sandeep singh,professional Web developer with</p>
               <p className=" mt-2">1.5 years experience in this field</p>
-              <button className="btn btn-danger mt-0 mt-sm-2 mt-md-3">Contact me</button>
+              <button className="btn btn-danger mt-0 mt-sm-2 mt-md-3" onClick={forNavigate}>Contact me</button>
             </div>
           </div>
         </div>

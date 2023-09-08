@@ -39,8 +39,8 @@ const Galary = () => {
 
   return (
     <Fragment>
-      <div className="container-fluid  Gallery mt-sm-5" id="Gallery">
-        <div className="row  d-flex align-items-center justify-content-center mt-sm-5 p-sm-4">
+      <div className="container-fluid  Gallery mt-4 mt-sm-5" id="Gallery">
+        <div className="row  d-flex align-items-center justify-content-center mt-2 mt-sm-5 p-sm-4">
        
           {photo.map((item, ind) => {
             return (
