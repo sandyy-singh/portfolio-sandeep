@@ -63,7 +63,7 @@ const Banner = () => {
             <div className="col-8 ">
               <h1 className="mt-3 font-weight-bold">Sandeep Singh</h1>
               <h1 className="font-weight-bold">Web-App Developer</h1>
-              <p className=" mt-4">I am sandeep singh,professional Web developer with</p>
+              <p className=" mt-4">I am sandeep singh,professional Web-App developer with</p>
               <p className=" mt-2">1.5 years experience in this field</p>
               <button className="btn btn-danger mt-0 mt-sm-2 mt-md-3" onClick={forNavigate}>Contact me</button>
             </div>

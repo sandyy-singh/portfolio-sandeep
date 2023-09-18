@@ -24,7 +24,7 @@ const About = () => {
                 <div className="row d-flex align-items-center justify-content-center">
                   <p className="col-11 col-md-8 b1 my-2 paraaaa bg-dark text-light ">
                     working at Aigroedge Technologies, Sector 125 Noida UP.
-                    Currently working as an React Developer, contributing to the
+                    Currently working as React Developer, contributing to the
                     development of web applications using React JS, HTML, CSS,
                     and JavaScript.
                   </p>

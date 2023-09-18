@@ -57,7 +57,7 @@ const Contact = () => {
             </div>
 
             <div className="col-sm-5 mt-4 contact-form">
-              <h3>Send Valuabl Messages</h3>
+              <h3>Send Valuable Messages</h3>
               <form onSubmit={handleSubmit}>
                 <div className="form-group">
                   <label htmlFor="name">Name</label>
