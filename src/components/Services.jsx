@@ -5,8 +5,8 @@ import { BsAndroid2, BsGithub, BsBox } from "react-icons/bs";
 
 const Services = () => {
   return (
-    <div className="container-fluid services mt-5">
-      <div className="row d-flex justify-content-center align-items-center">
+    <div className="container-fluid services mt-5 mt-sm-4">
+      <div className="row d-flex justify-content-center align-items-center mt-5 ">
         <div className="col-sm-8 services-box1 my-1  mt-3 mt-sm-5">
           <h1 className="head-h1 ">My services</h1>
           <p className="para-1 p-2">

@@ -8,26 +8,20 @@ Chart.register(CategoryScale);
 
 const Skills = () => {
   const data1 = {
-    labels: [
-      "REACT",
-      "HTML",
-      "CSS",
-      "SASS",
-      "JAVASCRIPT",
-      "Github",
-    ],
+    labels: ["REACT", "HTML", "CSS", "SASS", "Github", "Bootstrap", "firebase"],
     datasets: [
       {
         label: "2022 ",
-        data: [35,15,20,15,10,5],
+        data: [35, 15, 10, 15, 5, 10, 5],
         backgroundColor: [
-           "rgb(46, 6, 84)",
-          "rgb(155, 23, 65)",
-          "rgb(107, 99, 184)",
-          "rgb(231, 190, 141)",
+          "rgb(124, 0, 0)",
+          "rgb(124, 39, 58)",
+          "rgb(88, 122, 58)",
+          "rgb(88, 122, 206)",
           "rgb(169, 241, 36)",
           "rgb(55, 31, 142)",
-
+          "rgb(16, 21, 36)",
+          "rgb(55, 131, 14)",
         ],
         border: "none3",
       },
@@ -52,24 +46,39 @@ const Skills = () => {
   };
 
   return (
-    <div className="skills">
-      <div className="my-skills">
-        <h1>My Skills</h1>
-        <div className="bar-chart">
-          <div className="css"> CSS 80%</div>
-          <div className="sass"> SASS 75% </div>
-          <div className="javascript"> JAVASCRIPT 78% </div>
-          <div className="html"> html 90% </div>
-          <div className="react"> REACT JS 70% </div>
-          <div className="mui"> MUI 70% </div>
-          <div className="bootstrap"> BOOTSTRAP 60%</div>
-          <div className="github"> Github 75%</div>
+    <div className="container-fluid mt-5 mt-sm-5 p-sm-5">
+      <div className="row mt-sm-5">
+        <div className="col-sm-7">
+          <div className="row d-flex align-items-center justify-content-center">
+            <div className="col-sm-12">
+              <div className="row ">
+                <div className="col-10 mb-4">
+                  <h2 className="mySkills text-center my-2 mt-5 mt-sm-0">My Skills</h2>
+                </div>
+                <div className="col-12 my-2">
+                  <div className=" javascript"> JAVASCRIPT 75% </div>
+                  <div className=" css"> CSS 80%</div>
+                  <div className="  sass"> SASS 70% </div>
+                  <div className="html"> html 80% </div>
+                  <div className=" mui"> MUI 70% </div>
+                  <div className=" bootstrap"> BOOTSTRAP 80%</div>
+                  <div className="github"> Github 70%</div>
+                  <div className="fireBase "> fireBase 60%</div>
+                  <div className="col-8 react"> REACT JS 70% </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="used-skills">
-        <h1>Skills used in this project</h1>
-        <div className="pie-chart">
-          <Pie className="chartt" data={data1} options={option1} />
+        <div className="col-sm-5 mt-4 mt-sm-0">
+          <div className="row">
+            <div className="col-12 text-cenrer">
+              <h2 className="mySkills  mt-5 mt-sm-0">Skills used in this project</h2>
+            </div>
+            <div className="col-12 d-flex align-items-center justify-content-center piegrapf my-4">
+              <Pie className="" data={data1} options={option1} />
+            </div>
+          </div>
         </div>
       </div>
     </div>

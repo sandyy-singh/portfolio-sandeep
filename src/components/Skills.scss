@@ -1,133 +1,95 @@
-.skills{
+.css {
+    width: 80%;
+    height: 40px;
+    background-color: blueviolet;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(211, 213, 215);
+    justify-content: center;
+    color: aliceblue;
+}
 
-    
+.sass {
+    width: 70%;
+    height: 40px;
+    background-color: rgb(188, 241, 97);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
 
-    .my-skills{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        h1{
-            text-align: center;
-            color: rgb(71, 71, 82);
-        }
-        
+.javascript {
+    width: 75%;
+    height: 40px;
+    background-color: rgb(59, 56, 62);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
 
+.html {
+    width: 85%;
+    height: 40px;
+    background-color: rgb(224, 113, 150);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
 
-        .bar-chart{
-            width: 600px;
-            height: 430px;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            margin-left: 45px;
-            justify-content: flex-start;
-            border-left: 1px solid black;
-            >.css{
-                width: 80%;
-                height: 40px;
-                background-color: blueviolet;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: aliceblue;
-            }
-            >.sass{
-                width: 75%;
-                height: 40px;
-                background-color: rgb(188, 241, 97);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: aliceblue;
-            }
-            >.javascript{
-                width: 78%;
-                height: 40px;
-                background-color: rgb(59, 56, 62);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: aliceblue;
-            }
-            >.html{
-                width: 90%;
-                height: 40px;
-                background-color: rgb(224, 113, 150);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: aliceblue;
-            }
-            >.react{
-                width: 70%;
-                height: 40px;
-                background-color: rgb(251, 79, 16);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: aliceblue;
-            }
-            >.mui{
-                width: 70%;
-                height: 40px;
-                background-color: rgb(91, 164, 178);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: aliceblue;
-            }
-            >.bootstrap{
-                width: 60%;
-                height: 40px;
-                background-color: rgb(98, 16, 73);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: aliceblue;
-            }
-            >.github{
-                width: 75%;
-                height: 40px;
-                background-color: rgb(46, 6, 84);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: aliceblue;
-            }
-            
-    
-    
-    
-        }
-        
-    
-       
-        
-    }
-    .used-skills{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        position: relative;
-        bottom: 30px;   
-        h1{
-            text-align: center;
-            color: rgb(71, 71, 82);
-        }
+.react {
+    width: 72%;
+    height: 40px;
+    background-color: rgb(251, 79, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
 
-        .pie-chart{
-            display: flex;
-        }
-    }
+.mui {
+    width: 73%;
+    height: 40px;
+    background-color: rgb(91, 164, 178);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
 
+.bootstrap {
+    width: 78%;
+    height: 40px;
+    background-color: rgb(98, 16, 73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
 
-
-
-
+.github {
+    width: 68%;
+    height: 40px;
+    background-color: rgb(46, 6, 84);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.fireBase {
+    width: 65%;
+    height: 40px;
+    background-color: rgb(102, 44, 156);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.mySkills{
+    font-size: 40px;
+    font-weight: 900;
+}
+.piegrapf{
+    height: 400px;
 }

@@ -3,7 +3,7 @@ import "./Galary.scss";
 
 import img1 from "../assets/img1.jpg";
 import img2 from "../assets/img2.jpg";
-import img3 from "../assets/img3.jpg";
+import code from "../assets/code.jpg";
 import img4 from "../assets/img4.jpg";
 import img5 from "../assets/img5.jpg";
 import img6 from "../assets/img6.jpg";
@@ -21,7 +21,7 @@ const Galary = () => {
     },
     {
       id: 3,
-      imgSrc: img3,
+      imgSrc: code,
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ const Galary = () => {
 
   return (
     <Fragment>
-      <div className="container-fluid  Gallery mt-4 mt-sm-5" id="Gallery">
+      <div className="container-fluid  Gallery mt-5  mt-sm-3 p-sm-3" id="Gallery">
         <div className="row  d-flex align-items-center justify-content-center mt-2 mt-sm-5 p-sm-4">
        
           {photo.map((item, ind) => {

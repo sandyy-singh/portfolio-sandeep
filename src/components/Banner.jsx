@@ -7,7 +7,7 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import mypick1 from "../assets/mypick1.png";
+import mypick111 from "../assets/mypick111.png";
 
 import Services from "./Services";
 import About from "./About";
@@ -28,7 +28,7 @@ const Banner = () => {
       <div className="row p-3">
         <div className="  mt-0 col-sm-5 mypick1">
           <div className="row  mt-2 mt-sm-5 mt-md-5 ">
-            <img className="col-12 mt-md-0 mt-5  " alt="" src={mypick1} />
+            <img className="col-12 col-sm-10 mt-md-0 mt-5  " alt="" src={mypick111} />
           </div>
         </div>
 
@@ -73,6 +73,7 @@ const Banner = () => {
         <Services />
         <Galary />
         <About />
+        <Skills />
         <Contact />
       </div>
     </div>
@@ -81,66 +82,4 @@ const Banner = () => {
 
 export default Banner;
 
-{
-  /*  
 
-<div>
-      <div className="Banner">
-        <div className="container">
-          <div className="row">
-            <div className="col-6 mypick1">
-              <div className="row align-items-center justify-content-center">
-                <img className="col-10" alt="" src={mypick1} />
-              </div>
-            </div>
-
-            <div className="col-6 name-icons">
-              <div className="row content">
-                <div className="content-icons">
-                  <ul className="content-ul">
-                    <li>
-                      <a href="https://www.linkedin.com/in/sandeep-singh-78468624a/">
-                        <FaLinkedinIn />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.facebook.com/profile.php?id=100005377299025">
-                        <FaFacebookF />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://github.com/sandyy-singh">
-                        <FaGithub />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.facebook.com/profile.php?id=100005377299025">
-                        <FaInstagram />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div className="banner-about">
-                  <h1>I am </h1>
-                  <h1>Sandeep Singh</h1>
-                  <p>I am sandeep singh,professional Web developer with</p>
-                  <p>1.5 years experience in this field</p>
-                  <button>Contact me</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div>
-      
-      <Galary />
-      <Services />
-      <Skills />
-      <Project />
-      <About />
-      <Contact />
-          </div>
-       </div>
-       */
-}

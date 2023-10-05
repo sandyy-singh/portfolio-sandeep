@@ -5,8 +5,8 @@ import weather from "../assets/weather-app.png";
 import netFlix from "../assets/netflix_clone.png";
 const Project = () => {
   return (
-    <div className="container-fluid p-4 projectss p-5">
-      <div className="row d-flex align-items-center justify-content-center projects p-5 mt-sm-3">
+    <div className="container-fluid   mt-5 ">
+      <div className="row d-flex align-items-center justify-content-center projects p-5 p-sm-0 mt-sm-3">
         <div className="col-sm-6 proj-head p-sm-5">
           <h1 className="text-center">My projects</h1>
         </div>

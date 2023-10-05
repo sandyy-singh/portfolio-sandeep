@@ -45,7 +45,7 @@ const Contact = () => {
   };
   return (
     <div className="Contact-com ">
-    <div className="container mt-5 p-4 ">
+    <div className="container mt-3 mt-sm-5 p-4p-sm-0 ">
       <div className="row d-flex align-items-center justify-content-center mt-5">
         <div className="col-sm-10 mt-5">
           <div className="row">
